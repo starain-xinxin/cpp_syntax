@@ -13,13 +13,14 @@ public:
 
     int test_A(){
         class_num++;
+        return class_num;
     }
 };
 int A::class_num = 0;
 
 int test(){
     static int i = 0;
-    return i++;
+    return ++i;
 }
 
 int main(){
