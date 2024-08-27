@@ -28,3 +28,4 @@ endif()
 
 ADD_SUBDIRECTORY(02-class)
 ADD_SUBDIRECTORY(01-basic)
+ADD_SUBDIRECTORY(03-smart-point)

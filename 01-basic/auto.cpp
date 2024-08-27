@@ -34,5 +34,4 @@ int main(){
     int d = 128;
     const int* const d1 = &d;
     auto& d2 = d1;
-
 }
