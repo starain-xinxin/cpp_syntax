@@ -23,9 +23,11 @@ if(Boost_FOUND)
     message(STATUS "Boost_LIBRARIES: ${Boost_LIBRARIES}")
     message(STATUS "Boost_VERSION: ${Boost_VERSION}")
     include_directories(${Boost_INCLUDE_DIRS})
+    add_definitions(-D_GNU_SOURCE)
 endif()
 
-
+ADD_SUBDIRECTORY(00-some-tools)
 ADD_SUBDIRECTORY(02-class)
 ADD_SUBDIRECTORY(01-basic)
 ADD_SUBDIRECTORY(03-smart-point)
+ADD_SUBDIRECTORY(07-multithreading)
