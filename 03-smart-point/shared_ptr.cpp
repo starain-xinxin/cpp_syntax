@@ -26,11 +26,6 @@ int main(){
     PT(p21.use_count(), "堆内存计数");
     PT(p22.use_count(), "堆内存计数");
 
-    LINE;
-
-    PT(p1.unique(), "是否独占");
-    PT(p21.unique(), "是否独占");
-    PT(p22.unique(), "是否独占");
 
     LINE;
     // 更改p21与p22指针
