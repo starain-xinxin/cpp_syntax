@@ -172,6 +172,58 @@ unique_ptr/fast:
 	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/unique_ptr.dir/build.make 03-smart-point/CMakeFiles/unique_ptr.dir/build
 .PHONY : unique_ptr/fast
 
+# Convenience name for target.
+03-smart-point/CMakeFiles/share.dir/rule:
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03-smart-point/CMakeFiles/share.dir/rule
+.PHONY : 03-smart-point/CMakeFiles/share.dir/rule
+
+# Convenience name for target.
+share: 03-smart-point/CMakeFiles/share.dir/rule
+.PHONY : share
+
+# fast build rule for target.
+share/fast:
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/share.dir/build.make 03-smart-point/CMakeFiles/share.dir/build
+.PHONY : share/fast
+
+# Convenience name for target.
+03-smart-point/CMakeFiles/unique.dir/rule:
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03-smart-point/CMakeFiles/unique.dir/rule
+.PHONY : 03-smart-point/CMakeFiles/unique.dir/rule
+
+# Convenience name for target.
+unique: 03-smart-point/CMakeFiles/unique.dir/rule
+.PHONY : unique
+
+# fast build rule for target.
+unique/fast:
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/unique.dir/build.make 03-smart-point/CMakeFiles/unique.dir/build
+.PHONY : unique/fast
+
+share.o: share.cpp.o
+.PHONY : share.o
+
+# target to build an object file
+share.cpp.o:
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/share.dir/build.make 03-smart-point/CMakeFiles/share.dir/share.cpp.o
+.PHONY : share.cpp.o
+
+share.i: share.cpp.i
+.PHONY : share.i
+
+# target to preprocess a source file
+share.cpp.i:
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/share.dir/build.make 03-smart-point/CMakeFiles/share.dir/share.cpp.i
+.PHONY : share.cpp.i
+
+share.s: share.cpp.s
+.PHONY : share.s
+
+# target to generate assembly for a file
+share.cpp.s:
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/share.dir/build.make 03-smart-point/CMakeFiles/share.dir/share.cpp.s
+.PHONY : share.cpp.s
+
 shared_ptr.o: shared_ptr.cpp.o
 .PHONY : shared_ptr.o
 
@@ -195,6 +247,30 @@ shared_ptr.s: shared_ptr.cpp.s
 shared_ptr.cpp.s:
 	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/shared_ptr.dir/build.make 03-smart-point/CMakeFiles/shared_ptr.dir/shared_ptr.cpp.s
 .PHONY : shared_ptr.cpp.s
+
+unique.o: unique.cpp.o
+.PHONY : unique.o
+
+# target to build an object file
+unique.cpp.o:
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/unique.dir/build.make 03-smart-point/CMakeFiles/unique.dir/unique.cpp.o
+.PHONY : unique.cpp.o
+
+unique.i: unique.cpp.i
+.PHONY : unique.i
+
+# target to preprocess a source file
+unique.cpp.i:
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/unique.dir/build.make 03-smart-point/CMakeFiles/unique.dir/unique.cpp.i
+.PHONY : unique.cpp.i
+
+unique.s: unique.cpp.s
+.PHONY : unique.s
+
+# target to generate assembly for a file
+unique.cpp.s:
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/unique.dir/build.make 03-smart-point/CMakeFiles/unique.dir/unique.cpp.s
+.PHONY : unique.cpp.s
 
 unique_ptr.o: unique_ptr.cpp.o
 .PHONY : unique_ptr.o
@@ -276,13 +352,21 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... share"
 	@echo "... shared_ptr"
+	@echo "... unique"
 	@echo "... unique_ptr"
 	@echo "... weak_ptr"
 	@echo "... weak_ptr2"
+	@echo "... share.o"
+	@echo "... share.i"
+	@echo "... share.s"
 	@echo "... shared_ptr.o"
 	@echo "... shared_ptr.i"
 	@echo "... shared_ptr.s"
+	@echo "... unique.o"
+	@echo "... unique.i"
+	@echo "... unique.s"
 	@echo "... unique_ptr.o"
 	@echo "... unique_ptr.i"
 	@echo "... unique_ptr.s"
