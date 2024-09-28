@@ -39,27 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/mac/yuanxinyu/cpp_syntax/build/00-some-tools/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Users/mac/yuanxinyu/cpp_syntax/build/02-class/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Users/mac/yuanxinyu/cpp_syntax/build/01-basic/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/Users/mac/yuanxinyu/cpp_syntax/build/03-smart-point/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Users/mac/yuanxinyu/cpp_syntax/build/07-multithreading/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

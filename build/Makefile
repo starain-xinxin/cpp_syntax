@@ -117,279 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named stack_trace
-
-# Build rule for target.
-stack_trace: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stack_trace
-.PHONY : stack_trace
-
-# fast build rule for target.
-stack_trace/fast:
-	$(MAKE) $(MAKESILENT) -f 00-some-tools/CMakeFiles/stack_trace.dir/build.make 00-some-tools/CMakeFiles/stack_trace.dir/build
-.PHONY : stack_trace/fast
-
-#=============================================================================
-# Target rules for targets named con_destructor
-
-# Build rule for target.
-con_destructor: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 con_destructor
-.PHONY : con_destructor
-
-# fast build rule for target.
-con_destructor/fast:
-	$(MAKE) $(MAKESILENT) -f 02-class/CMakeFiles/con_destructor.dir/build.make 02-class/CMakeFiles/con_destructor.dir/build
-.PHONY : con_destructor/fast
-
-#=============================================================================
-# Target rules for targets named this_const
-
-# Build rule for target.
-this_const: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 this_const
-.PHONY : this_const
-
-# fast build rule for target.
-this_const/fast:
-	$(MAKE) $(MAKESILENT) -f 02-class/CMakeFiles/this_const.dir/build.make 02-class/CMakeFiles/this_const.dir/build
-.PHONY : this_const/fast
-
-#=============================================================================
-# Target rules for targets named friend
-
-# Build rule for target.
-friend: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 friend
-.PHONY : friend
-
-# fast build rule for target.
-friend/fast:
-	$(MAKE) $(MAKESILENT) -f 02-class/CMakeFiles/friend.dir/build.make 02-class/CMakeFiles/friend.dir/build
-.PHONY : friend/fast
-
-#=============================================================================
-# Target rules for targets named operator
-
-# Build rule for target.
-operator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 operator
-.PHONY : operator
-
-# fast build rule for target.
-operator/fast:
-	$(MAKE) $(MAKESILENT) -f 02-class/CMakeFiles/operator.dir/build.make 02-class/CMakeFiles/operator.dir/build
-.PHONY : operator/fast
-
-#=============================================================================
-# Target rules for targets named inherit
-
-# Build rule for target.
-inherit: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inherit
-.PHONY : inherit
-
-# fast build rule for target.
-inherit/fast:
-	$(MAKE) $(MAKESILENT) -f 02-class/CMakeFiles/inherit.dir/build.make 02-class/CMakeFiles/inherit.dir/build
-.PHONY : inherit/fast
-
-#=============================================================================
-# Target rules for targets named virtual
-
-# Build rule for target.
-virtual: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual
-.PHONY : virtual
-
-# fast build rule for target.
-virtual/fast:
-	$(MAKE) $(MAKESILENT) -f 02-class/CMakeFiles/virtual.dir/build.make 02-class/CMakeFiles/virtual.dir/build
-.PHONY : virtual/fast
-
-#=============================================================================
-# Target rules for targets named virtual2
-
-# Build rule for target.
-virtual2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 virtual2
-.PHONY : virtual2
-
-# fast build rule for target.
-virtual2/fast:
-	$(MAKE) $(MAKESILENT) -f 02-class/CMakeFiles/virtual2.dir/build.make 02-class/CMakeFiles/virtual2.dir/build
-.PHONY : virtual2/fast
-
-#=============================================================================
-# Target rules for targets named class_static
-
-# Build rule for target.
-class_static: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 class_static
-.PHONY : class_static
-
-# fast build rule for target.
-class_static/fast:
-	$(MAKE) $(MAKESILENT) -f 02-class/CMakeFiles/class_static.dir/build.make 02-class/CMakeFiles/class_static.dir/build
-.PHONY : class_static/fast
-
-#=============================================================================
-# Target rules for targets named pure_virtual
-
-# Build rule for target.
-pure_virtual: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pure_virtual
-.PHONY : pure_virtual
-
-# fast build rule for target.
-pure_virtual/fast:
-	$(MAKE) $(MAKESILENT) -f 02-class/CMakeFiles/pure_virtual.dir/build.make 02-class/CMakeFiles/pure_virtual.dir/build
-.PHONY : pure_virtual/fast
-
-#=============================================================================
-# Target rules for targets named rtti
-
-# Build rule for target.
-rtti: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rtti
-.PHONY : rtti
-
-# fast build rule for target.
-rtti/fast:
-	$(MAKE) $(MAKESILENT) -f 02-class/CMakeFiles/rtti.dir/build.make 02-class/CMakeFiles/rtti.dir/build
-.PHONY : rtti/fast
-
-#=============================================================================
-# Target rules for targets named multi_inherit
-
-# Build rule for target.
-multi_inherit: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 multi_inherit
-.PHONY : multi_inherit
-
-# fast build rule for target.
-multi_inherit/fast:
-	$(MAKE) $(MAKESILENT) -f 02-class/CMakeFiles/multi_inherit.dir/build.make 02-class/CMakeFiles/multi_inherit.dir/build
-.PHONY : multi_inherit/fast
-
-#=============================================================================
-# Target rules for targets named move_semantics
-
-# Build rule for target.
-move_semantics: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 move_semantics
-.PHONY : move_semantics
-
-# fast build rule for target.
-move_semantics/fast:
-	$(MAKE) $(MAKESILENT) -f 02-class/CMakeFiles/move_semantics.dir/build.make 02-class/CMakeFiles/move_semantics.dir/build
-.PHONY : move_semantics/fast
-
-#=============================================================================
-# Target rules for targets named singleton
-
-# Build rule for target.
-singleton: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 singleton
-.PHONY : singleton
-
-# fast build rule for target.
-singleton/fast:
-	$(MAKE) $(MAKESILENT) -f 02-class/CMakeFiles/singleton.dir/build.make 02-class/CMakeFiles/singleton.dir/build
-.PHONY : singleton/fast
-
-#=============================================================================
-# Target rules for targets named new
-
-# Build rule for target.
-new: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 new
-.PHONY : new
-
-# fast build rule for target.
-new/fast:
-	$(MAKE) $(MAKESILENT) -f 01-basic/CMakeFiles/new.dir/build.make 01-basic/CMakeFiles/new.dir/build
-.PHONY : new/fast
-
-#=============================================================================
-# Target rules for targets named namespace
-
-# Build rule for target.
-namespace: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 namespace
-.PHONY : namespace
-
-# fast build rule for target.
-namespace/fast:
-	$(MAKE) $(MAKESILENT) -f 01-basic/CMakeFiles/namespace.dir/build.make 01-basic/CMakeFiles/namespace.dir/build
-.PHONY : namespace/fast
-
-#=============================================================================
-# Target rules for targets named const
-
-# Build rule for target.
-const: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 const
-.PHONY : const
-
-# fast build rule for target.
-const/fast:
-	$(MAKE) $(MAKESILENT) -f 01-basic/CMakeFiles/const.dir/build.make 01-basic/CMakeFiles/const.dir/build
-.PHONY : const/fast
-
-#=============================================================================
-# Target rules for targets named auto
-
-# Build rule for target.
-auto: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 auto
-.PHONY : auto
-
-# fast build rule for target.
-auto/fast:
-	$(MAKE) $(MAKESILENT) -f 01-basic/CMakeFiles/auto.dir/build.make 01-basic/CMakeFiles/auto.dir/build
-.PHONY : auto/fast
-
-#=============================================================================
-# Target rules for targets named static_global
-
-# Build rule for target.
-static_global: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static_global
-.PHONY : static_global
-
-# fast build rule for target.
-static_global/fast:
-	$(MAKE) $(MAKESILENT) -f 01-basic/CMakeFiles/static_global.dir/build.make 01-basic/CMakeFiles/static_global.dir/build
-.PHONY : static_global/fast
-
-#=============================================================================
-# Target rules for targets named ref
-
-# Build rule for target.
-ref: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ref
-.PHONY : ref
-
-# fast build rule for target.
-ref/fast:
-	$(MAKE) $(MAKESILENT) -f 01-basic/CMakeFiles/ref.dir/build.make 01-basic/CMakeFiles/ref.dir/build
-.PHONY : ref/fast
-
-#=============================================================================
-# Target rules for targets named Callable_object
-
-# Build rule for target.
-Callable_object: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Callable_object
-.PHONY : Callable_object
-
-# fast build rule for target.
-Callable_object/fast:
-	$(MAKE) $(MAKESILENT) -f 01-basic/CMakeFiles/Callable_object.dir/build.make 01-basic/CMakeFiles/Callable_object.dir/build
-.PHONY : Callable_object/fast
-
-#=============================================================================
 # Target rules for targets named shared_ptr
 
 # Build rule for target.
@@ -442,30 +169,30 @@ unique_ptr/fast:
 .PHONY : unique_ptr/fast
 
 #=============================================================================
-# Target rules for targets named thread
+# Target rules for targets named share
 
 # Build rule for target.
-thread: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 thread
-.PHONY : thread
+share: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 share
+.PHONY : share
 
 # fast build rule for target.
-thread/fast:
-	$(MAKE) $(MAKESILENT) -f 07-multithreading/CMakeFiles/thread.dir/build.make 07-multithreading/CMakeFiles/thread.dir/build
-.PHONY : thread/fast
+share/fast:
+	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/share.dir/build.make 03-smart-point/CMakeFiles/share.dir/build
+.PHONY : share/fast
 
 #=============================================================================
-# Target rules for targets named mutex
+# Target rules for targets named unique
 
 # Build rule for target.
-mutex: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mutex
-.PHONY : mutex
+unique: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unique
+.PHONY : unique
 
 # fast build rule for target.
-mutex/fast:
-	$(MAKE) $(MAKESILENT) -f 07-multithreading/CMakeFiles/mutex.dir/build.make 07-multithreading/CMakeFiles/mutex.dir/build
-.PHONY : mutex/fast
+unique/fast:
+	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/unique.dir/build.make 03-smart-point/CMakeFiles/unique.dir/build
+.PHONY : unique/fast
 
 # Help Target
 help:
@@ -475,31 +202,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Callable_object"
-	@echo "... auto"
-	@echo "... class_static"
-	@echo "... con_destructor"
-	@echo "... const"
-	@echo "... friend"
-	@echo "... inherit"
-	@echo "... move_semantics"
-	@echo "... multi_inherit"
-	@echo "... mutex"
-	@echo "... namespace"
-	@echo "... new"
-	@echo "... operator"
-	@echo "... pure_virtual"
-	@echo "... ref"
-	@echo "... rtti"
+	@echo "... share"
 	@echo "... shared_ptr"
-	@echo "... singleton"
-	@echo "... stack_trace"
-	@echo "... static_global"
-	@echo "... this_const"
-	@echo "... thread"
+	@echo "... unique"
 	@echo "... unique_ptr"
-	@echo "... virtual"
-	@echo "... virtual2"
 	@echo "... weak_ptr"
 	@echo "... weak_ptr2"
 .PHONY : help

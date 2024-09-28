@@ -9,10 +9,9 @@
 cmake_minimum_required(VERSION 3.25)
 project(cpp_syntax LANGUAGES C CXX)
 
-# 设置C++标准版本为C++20
-set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
+# 设置C++标准版本为C++23
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED OUTPUT_NAME)
 
 message(STATUS "start running cmake...")
 
@@ -26,8 +25,20 @@ if(Boost_FOUND)
     add_definitions(-D_GNU_SOURCE)
 endif()
 
-ADD_SUBDIRECTORY(00-some-tools)
-ADD_SUBDIRECTORY(02-class)
-ADD_SUBDIRECTORY(01-basic)
-ADD_SUBDIRECTORY(03-smart-point)
-ADD_SUBDIRECTORY(07-multithreading)
+set(DIR_COMPILE $ENV{DIR_COMPILE})
+
+set(SUB_DIR_LIST 
+    00-some-tools
+    01-basic
+    02-class
+    03-smart-point
+    07-multithreading
+)
+
+if(DIR_COMPILE)
+    add_subdirectory(${DIR_COMPILE})
+else()
+    foreach(subdir ${SUB_DIR_LIST})
+        add_subdirectory(${subdir})
+    endforeach()
+endif()
