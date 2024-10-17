@@ -105,7 +105,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Darwin.cmake"
   "/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/UnixPaths.cmake"
-  "/Users/mac/yuanxinyu/cpp_syntax/03-smart-point/CMakeLists.txt"
+  "/Users/mac/yuanxinyu/cpp_syntax/08-STL/CMakeLists.txt"
   "/Users/mac/yuanxinyu/cpp_syntax/CMakeLists.txt"
   "CMakeFiles/3.26.0-rc5/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.0-rc5/CMakeCXXCompiler.cmake"
@@ -147,15 +147,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.26.0-rc5/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.0-rc5/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "03-smart-point/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "08-STL/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "03-smart-point/CMakeFiles/shared_ptr.dir/DependInfo.cmake"
-  "03-smart-point/CMakeFiles/weak_ptr.dir/DependInfo.cmake"
-  "03-smart-point/CMakeFiles/weak_ptr2.dir/DependInfo.cmake"
-  "03-smart-point/CMakeFiles/unique_ptr.dir/DependInfo.cmake"
-  "03-smart-point/CMakeFiles/share.dir/DependInfo.cmake"
-  "03-smart-point/CMakeFiles/unique.dir/DependInfo.cmake"
+  "08-STL/CMakeFiles/unordered_map.dir/DependInfo.cmake"
   )

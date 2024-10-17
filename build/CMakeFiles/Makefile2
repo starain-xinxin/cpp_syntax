@@ -63,197 +63,57 @@ CMAKE_BINARY_DIR = /Users/mac/yuanxinyu/cpp_syntax/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: 03-smart-point/all
+all: 08-STL/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: 03-smart-point/preinstall
+preinstall: 08-STL/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: 03-smart-point/clean
+clean: 08-STL/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory 03-smart-point
+# Directory level rules for directory 08-STL
 
 # Recursive "all" directory target.
-03-smart-point/all: 03-smart-point/CMakeFiles/shared_ptr.dir/all
-03-smart-point/all: 03-smart-point/CMakeFiles/weak_ptr.dir/all
-03-smart-point/all: 03-smart-point/CMakeFiles/weak_ptr2.dir/all
-03-smart-point/all: 03-smart-point/CMakeFiles/unique_ptr.dir/all
-03-smart-point/all: 03-smart-point/CMakeFiles/share.dir/all
-03-smart-point/all: 03-smart-point/CMakeFiles/unique.dir/all
-.PHONY : 03-smart-point/all
+08-STL/all: 08-STL/CMakeFiles/unordered_map.dir/all
+.PHONY : 08-STL/all
 
 # Recursive "preinstall" directory target.
-03-smart-point/preinstall:
-.PHONY : 03-smart-point/preinstall
+08-STL/preinstall:
+.PHONY : 08-STL/preinstall
 
 # Recursive "clean" directory target.
-03-smart-point/clean: 03-smart-point/CMakeFiles/shared_ptr.dir/clean
-03-smart-point/clean: 03-smart-point/CMakeFiles/weak_ptr.dir/clean
-03-smart-point/clean: 03-smart-point/CMakeFiles/weak_ptr2.dir/clean
-03-smart-point/clean: 03-smart-point/CMakeFiles/unique_ptr.dir/clean
-03-smart-point/clean: 03-smart-point/CMakeFiles/share.dir/clean
-03-smart-point/clean: 03-smart-point/CMakeFiles/unique.dir/clean
-.PHONY : 03-smart-point/clean
+08-STL/clean: 08-STL/CMakeFiles/unordered_map.dir/clean
+.PHONY : 08-STL/clean
 
 #=============================================================================
-# Target rules for target 03-smart-point/CMakeFiles/shared_ptr.dir
+# Target rules for target 08-STL/CMakeFiles/unordered_map.dir
 
 # All Build rule for target.
-03-smart-point/CMakeFiles/shared_ptr.dir/all:
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/shared_ptr.dir/build.make 03-smart-point/CMakeFiles/shared_ptr.dir/depend
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/shared_ptr.dir/build.make 03-smart-point/CMakeFiles/shared_ptr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles --progress-num=3,4 "Built target shared_ptr"
-.PHONY : 03-smart-point/CMakeFiles/shared_ptr.dir/all
+08-STL/CMakeFiles/unordered_map.dir/all:
+	$(MAKE) $(MAKESILENT) -f 08-STL/CMakeFiles/unordered_map.dir/build.make 08-STL/CMakeFiles/unordered_map.dir/depend
+	$(MAKE) $(MAKESILENT) -f 08-STL/CMakeFiles/unordered_map.dir/build.make 08-STL/CMakeFiles/unordered_map.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles --progress-num=1,2 "Built target unordered_map"
+.PHONY : 08-STL/CMakeFiles/unordered_map.dir/all
 
 # Build rule for subdir invocation for target.
-03-smart-point/CMakeFiles/shared_ptr.dir/rule: cmake_check_build_system
+08-STL/CMakeFiles/unordered_map.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03-smart-point/CMakeFiles/shared_ptr.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08-STL/CMakeFiles/unordered_map.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles 0
-.PHONY : 03-smart-point/CMakeFiles/shared_ptr.dir/rule
+.PHONY : 08-STL/CMakeFiles/unordered_map.dir/rule
 
 # Convenience name for target.
-shared_ptr: 03-smart-point/CMakeFiles/shared_ptr.dir/rule
-.PHONY : shared_ptr
+unordered_map: 08-STL/CMakeFiles/unordered_map.dir/rule
+.PHONY : unordered_map
 
 # clean rule for target.
-03-smart-point/CMakeFiles/shared_ptr.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/shared_ptr.dir/build.make 03-smart-point/CMakeFiles/shared_ptr.dir/clean
-.PHONY : 03-smart-point/CMakeFiles/shared_ptr.dir/clean
-
-#=============================================================================
-# Target rules for target 03-smart-point/CMakeFiles/weak_ptr.dir
-
-# All Build rule for target.
-03-smart-point/CMakeFiles/weak_ptr.dir/all:
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/weak_ptr.dir/build.make 03-smart-point/CMakeFiles/weak_ptr.dir/depend
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/weak_ptr.dir/build.make 03-smart-point/CMakeFiles/weak_ptr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles --progress-num=9,10 "Built target weak_ptr"
-.PHONY : 03-smart-point/CMakeFiles/weak_ptr.dir/all
-
-# Build rule for subdir invocation for target.
-03-smart-point/CMakeFiles/weak_ptr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03-smart-point/CMakeFiles/weak_ptr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles 0
-.PHONY : 03-smart-point/CMakeFiles/weak_ptr.dir/rule
-
-# Convenience name for target.
-weak_ptr: 03-smart-point/CMakeFiles/weak_ptr.dir/rule
-.PHONY : weak_ptr
-
-# clean rule for target.
-03-smart-point/CMakeFiles/weak_ptr.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/weak_ptr.dir/build.make 03-smart-point/CMakeFiles/weak_ptr.dir/clean
-.PHONY : 03-smart-point/CMakeFiles/weak_ptr.dir/clean
-
-#=============================================================================
-# Target rules for target 03-smart-point/CMakeFiles/weak_ptr2.dir
-
-# All Build rule for target.
-03-smart-point/CMakeFiles/weak_ptr2.dir/all:
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/weak_ptr2.dir/build.make 03-smart-point/CMakeFiles/weak_ptr2.dir/depend
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/weak_ptr2.dir/build.make 03-smart-point/CMakeFiles/weak_ptr2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles --progress-num=11,12 "Built target weak_ptr2"
-.PHONY : 03-smart-point/CMakeFiles/weak_ptr2.dir/all
-
-# Build rule for subdir invocation for target.
-03-smart-point/CMakeFiles/weak_ptr2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03-smart-point/CMakeFiles/weak_ptr2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles 0
-.PHONY : 03-smart-point/CMakeFiles/weak_ptr2.dir/rule
-
-# Convenience name for target.
-weak_ptr2: 03-smart-point/CMakeFiles/weak_ptr2.dir/rule
-.PHONY : weak_ptr2
-
-# clean rule for target.
-03-smart-point/CMakeFiles/weak_ptr2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/weak_ptr2.dir/build.make 03-smart-point/CMakeFiles/weak_ptr2.dir/clean
-.PHONY : 03-smart-point/CMakeFiles/weak_ptr2.dir/clean
-
-#=============================================================================
-# Target rules for target 03-smart-point/CMakeFiles/unique_ptr.dir
-
-# All Build rule for target.
-03-smart-point/CMakeFiles/unique_ptr.dir/all:
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/unique_ptr.dir/build.make 03-smart-point/CMakeFiles/unique_ptr.dir/depend
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/unique_ptr.dir/build.make 03-smart-point/CMakeFiles/unique_ptr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles --progress-num=7,8 "Built target unique_ptr"
-.PHONY : 03-smart-point/CMakeFiles/unique_ptr.dir/all
-
-# Build rule for subdir invocation for target.
-03-smart-point/CMakeFiles/unique_ptr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03-smart-point/CMakeFiles/unique_ptr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles 0
-.PHONY : 03-smart-point/CMakeFiles/unique_ptr.dir/rule
-
-# Convenience name for target.
-unique_ptr: 03-smart-point/CMakeFiles/unique_ptr.dir/rule
-.PHONY : unique_ptr
-
-# clean rule for target.
-03-smart-point/CMakeFiles/unique_ptr.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/unique_ptr.dir/build.make 03-smart-point/CMakeFiles/unique_ptr.dir/clean
-.PHONY : 03-smart-point/CMakeFiles/unique_ptr.dir/clean
-
-#=============================================================================
-# Target rules for target 03-smart-point/CMakeFiles/share.dir
-
-# All Build rule for target.
-03-smart-point/CMakeFiles/share.dir/all:
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/share.dir/build.make 03-smart-point/CMakeFiles/share.dir/depend
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/share.dir/build.make 03-smart-point/CMakeFiles/share.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles --progress-num=1,2 "Built target share"
-.PHONY : 03-smart-point/CMakeFiles/share.dir/all
-
-# Build rule for subdir invocation for target.
-03-smart-point/CMakeFiles/share.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03-smart-point/CMakeFiles/share.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles 0
-.PHONY : 03-smart-point/CMakeFiles/share.dir/rule
-
-# Convenience name for target.
-share: 03-smart-point/CMakeFiles/share.dir/rule
-.PHONY : share
-
-# clean rule for target.
-03-smart-point/CMakeFiles/share.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/share.dir/build.make 03-smart-point/CMakeFiles/share.dir/clean
-.PHONY : 03-smart-point/CMakeFiles/share.dir/clean
-
-#=============================================================================
-# Target rules for target 03-smart-point/CMakeFiles/unique.dir
-
-# All Build rule for target.
-03-smart-point/CMakeFiles/unique.dir/all:
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/unique.dir/build.make 03-smart-point/CMakeFiles/unique.dir/depend
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/unique.dir/build.make 03-smart-point/CMakeFiles/unique.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles --progress-num=5,6 "Built target unique"
-.PHONY : 03-smart-point/CMakeFiles/unique.dir/all
-
-# Build rule for subdir invocation for target.
-03-smart-point/CMakeFiles/unique.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03-smart-point/CMakeFiles/unique.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles 0
-.PHONY : 03-smart-point/CMakeFiles/unique.dir/rule
-
-# Convenience name for target.
-unique: 03-smart-point/CMakeFiles/unique.dir/rule
-.PHONY : unique
-
-# clean rule for target.
-03-smart-point/CMakeFiles/unique.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 03-smart-point/CMakeFiles/unique.dir/build.make 03-smart-point/CMakeFiles/unique.dir/clean
-.PHONY : 03-smart-point/CMakeFiles/unique.dir/clean
+08-STL/CMakeFiles/unordered_map.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 08-STL/CMakeFiles/unordered_map.dir/build.make 08-STL/CMakeFiles/unordered_map.dir/clean
+.PHONY : 08-STL/CMakeFiles/unordered_map.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

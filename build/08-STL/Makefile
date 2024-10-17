@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles /Users/mac/yuanxinyu/cpp_syntax/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles /Users/mac/yuanxinyu/cpp_syntax/build/08-STL//CMakeFiles/progress.marks
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08-STL/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08-STL/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,31 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08-STL/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08-STL/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named unordered_map
+# Convenience name for target.
+08-STL/CMakeFiles/unordered_map.dir/rule:
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 08-STL/CMakeFiles/unordered_map.dir/rule
+.PHONY : 08-STL/CMakeFiles/unordered_map.dir/rule
 
-# Build rule for target.
-unordered_map: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unordered_map
+# Convenience name for target.
+unordered_map: 08-STL/CMakeFiles/unordered_map.dir/rule
 .PHONY : unordered_map
 
 # fast build rule for target.
 unordered_map/fast:
-	$(MAKE) $(MAKESILENT) -f 08-STL/CMakeFiles/unordered_map.dir/build.make 08-STL/CMakeFiles/unordered_map.dir/build
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f 08-STL/CMakeFiles/unordered_map.dir/build.make 08-STL/CMakeFiles/unordered_map.dir/build
 .PHONY : unordered_map/fast
+
+unordered_map.o: unordered_map.cpp.o
+.PHONY : unordered_map.o
+
+# target to build an object file
+unordered_map.cpp.o:
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f 08-STL/CMakeFiles/unordered_map.dir/build.make 08-STL/CMakeFiles/unordered_map.dir/unordered_map.cpp.o
+.PHONY : unordered_map.cpp.o
+
+unordered_map.i: unordered_map.cpp.i
+.PHONY : unordered_map.i
+
+# target to preprocess a source file
+unordered_map.cpp.i:
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f 08-STL/CMakeFiles/unordered_map.dir/build.make 08-STL/CMakeFiles/unordered_map.dir/unordered_map.cpp.i
+.PHONY : unordered_map.cpp.i
+
+unordered_map.s: unordered_map.cpp.s
+.PHONY : unordered_map.s
+
+# target to generate assembly for a file
+unordered_map.cpp.s:
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(MAKE) $(MAKESILENT) -f 08-STL/CMakeFiles/unordered_map.dir/build.make 08-STL/CMakeFiles/unordered_map.dir/unordered_map.cpp.s
+.PHONY : unordered_map.cpp.s
 
 # Help Target
 help:
@@ -138,6 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... unordered_map"
+	@echo "... unordered_map.o"
+	@echo "... unordered_map.i"
+	@echo "... unordered_map.s"
 .PHONY : help
 
 
@@ -149,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/mac/yuanxinyu/cpp_syntax/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

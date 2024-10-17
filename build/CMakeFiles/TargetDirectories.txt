@@ -1,10 +1,5 @@
 /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles/edit_cache.dir
 /Users/mac/yuanxinyu/cpp_syntax/build/CMakeFiles/rebuild_cache.dir
-/Users/mac/yuanxinyu/cpp_syntax/build/03-smart-point/CMakeFiles/shared_ptr.dir
-/Users/mac/yuanxinyu/cpp_syntax/build/03-smart-point/CMakeFiles/weak_ptr.dir
-/Users/mac/yuanxinyu/cpp_syntax/build/03-smart-point/CMakeFiles/weak_ptr2.dir
-/Users/mac/yuanxinyu/cpp_syntax/build/03-smart-point/CMakeFiles/unique_ptr.dir
-/Users/mac/yuanxinyu/cpp_syntax/build/03-smart-point/CMakeFiles/share.dir
-/Users/mac/yuanxinyu/cpp_syntax/build/03-smart-point/CMakeFiles/unique.dir
-/Users/mac/yuanxinyu/cpp_syntax/build/03-smart-point/CMakeFiles/edit_cache.dir
-/Users/mac/yuanxinyu/cpp_syntax/build/03-smart-point/CMakeFiles/rebuild_cache.dir
+/Users/mac/yuanxinyu/cpp_syntax/build/08-STL/CMakeFiles/unordered_map.dir
+/Users/mac/yuanxinyu/cpp_syntax/build/08-STL/CMakeFiles/edit_cache.dir
+/Users/mac/yuanxinyu/cpp_syntax/build/08-STL/CMakeFiles/rebuild_cache.dir

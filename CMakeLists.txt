@@ -28,11 +28,12 @@ endif()
 set(DIR_COMPILE $ENV{DIR_COMPILE})
 
 set(SUB_DIR_LIST 
-    00-some-tools
-    01-basic
-    02-class
-    03-smart-point
-    07-multithreading
+    # 00-some-tools
+    # 01-basic
+    # 02-class
+    # 03-smart-point
+    # 07-multithreading
+    08-STL
 )
 
 if(DIR_COMPILE)
